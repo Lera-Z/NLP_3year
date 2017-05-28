@@ -1,0 +1,17 @@
+# Cons
+define C [ d | n ];
+
+read lexc span.lexc
+define Lexicon;
+
+define IrDeletion i r -> 0 || _ "^" ;
+
+define EReplacement e -> i || _ C "^" [ o | e s | e | e n ] ;
+
+define Cleanup "^" -> 0;
+
+regex Lexicon .o.
+      IrDeletion .o.
+      EReplacement .o.
+      Cleanup;
+

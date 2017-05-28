@@ -1,0 +1,21 @@
+Multichar_Symbols +Inf +1Sg +2Sg +3Sg +1Pl +2Pl +3Pl
+
+LEXICON Root
+
+Verb ;
+
+LEXICON Verb
+
+pedir   Suff;
+medir   Suff;
+renir   Suff;
+
+LEXICON Suff
+
++Inf:^ir       #;
++1Sg:^o        #;
++2Sg:^es       #;
++3Sg:^e        #;
++1Pl:^imos     #;
++2Pl:^is       #;
++3Pl:^en       #;
